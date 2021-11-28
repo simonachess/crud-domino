@@ -1,0 +1,31 @@
+$d_green: #cee5d0;
+$d_light: #f3f0d7;
+$d_brown: #e0c097;
+$d_red: #ff7878;
+
+.domino {
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 980px;
+        width: 100%;
+    }
+    &__header {
+        height: 55px;
+        background-color: $d_light;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1 {
+            color: $d_red;
+        }
+    }
+    &__create {
+        background-color: $d_light;
+        width: 100%;
+        border-top: 2px solid $d_brown;
+    }
+}
