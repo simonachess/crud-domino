@@ -1,13 +1,13 @@
 import Half from "./Half"
 
-function Plate({ left, right }) {
+function Plate({ plate }) {
     return (
         <div className="plate">
             <div className="left-half">
-                <Half dots={left} />
+                <Half dots={plate.left} />
             </div>
             <div className="right-half">
-                <Half dots={right} />
+                <Half dots={plate.right} />
             </div>
         </div>
     )

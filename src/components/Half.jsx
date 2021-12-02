@@ -1,6 +1,7 @@
 function Half({ dots }) {
 
     switch (dots) {
+
         case 0: return (
             <div className="dot-container dot-container-0">
 
